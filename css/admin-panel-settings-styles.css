@@ -1,0 +1,190 @@
+:root {
+  --main-color: #1F2332;
+}
+
+#lightbox-with-ads-settings-page {
+  max-width: 800px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+#lightbox-with-ads-settings-page .main-title {
+  background-color: var(--main-color);
+  padding: 26px;
+  display: flex;
+  align-items: center;
+}
+#lightbox-with-ads-settings-page .main-title img {
+  width: 50px;
+  height: 50px;
+}
+#lightbox-with-ads-settings-page .main-title .header {
+  margin-left: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+#lightbox-with-ads-settings-page .main-title .header .plugin-logo {
+  color: #797B84;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+}
+#lightbox-with-ads-settings-page .main-title .header .settings-text {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+#lightbox-with-ads-settings-page section {
+  position: relative;
+  background-color: white;
+  border: 1px solid #D9D9D9;
+  padding: 26px;
+  margin-bottom: 16px;
+}
+#lightbox-with-ads-settings-page section h1 {
+  margin: 0;
+  color: #343A49;
+  padding-bottom: 20px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #D9D9D9;
+}
+#lightbox-with-ads-settings-page section button {
+  padding: 12px;
+  background-color: #bb1107;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#lightbox-with-ads-settings-page section button[type=submit] {
+  background-color: #e561a6;
+}
+#lightbox-with-ads-settings-page section .success {
+  font-weight: bold;
+  color: #e561a6;
+}
+#lightbox-with-ads-settings-page section .warning {
+  font-weight: bold;
+  color: #bb1107;
+}
+#lightbox-with-ads-settings-page section .options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+#lightbox-with-ads-settings-page section .options-container .option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  /* Hides input number arrows */
+}
+#lightbox-with-ads-settings-page section .options-container .option label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  pointer-events: none;
+}
+#lightbox-with-ads-settings-page section .options-container .option input[type=number] {
+  width: 100%;
+  max-width: 100px;
+  text-align: right;
+}
+#lightbox-with-ads-settings-page section .options-container .option input::-webkit-outer-spin-button,
+#lightbox-with-ads-settings-page section .options-container .option input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#lightbox-with-ads-settings-page section .options-container .option input[type=number] {
+  -moz-appearance: textfield;
+}
+#lightbox-with-ads-settings-page section .options-container .option input[type=color] {
+  cursor: pointer;
+}
+#lightbox-with-ads-settings-page section .options-container .option .units {
+  margin-left: -30px;
+}
+#lightbox-with-ads-settings-page section .options-container .option textarea {
+  height: 240px;
+  resize: none;
+}
+#lightbox-with-ads-settings-page section .options-container .option #logo-image-preview {
+  width: 300px;
+  height: 150px;
+  margin-bottom: 12px;
+}
+#lightbox-with-ads-settings-page section .options-container .option #logo-image-preview[src=""] {
+  display: none;
+}
+#lightbox-with-ads-settings-page section .options-container .option .license-key-buttons {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#lightbox-with-ads-settings-page section .options-container .option #upload-logo-image-button, #lightbox-with-ads-settings-page section .options-container .option #activate-license-button, #lightbox-with-ads-settings-page section .options-container .option #deactivate-license-button {
+  padding: 8px;
+  background-color: #e561a6;
+}
+#lightbox-with-ads-settings-page section .options-container .option #deactivate-license-button {
+  background-color: #bb1107;
+}
+#lightbox-with-ads-settings-page section .options-container .option .license-error {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #bb1107;
+}
+#lightbox-with-ads-settings-page section .options-container .option .license-success {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #e561a6;
+}
+#lightbox-with-ads-settings-page section .options-container .option .disabled-button {
+  background-color: gray !important;
+}
+#lightbox-with-ads-settings-page section .options-container .option #lightbox_with_ads_option_pub_id {
+  width: 300px;
+}
+#lightbox-with-ads-settings-page section .options-container .option-with-unit input[type=number] {
+  padding-right: 30px;
+}
+#lightbox-with-ads-settings-page section .ad-scripts-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #D9D9D9;
+}
+#lightbox-with-ads-settings-page section .ad-scripts-header h1 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+#lightbox-with-ads-settings-page section .ad-scripts-header .premium-warning {
+  background-color: #bb1107;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 10px;
+}
+#lightbox-with-ads-settings-page section .account-type-option {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+}
+#lightbox-with-ads-settings-page section .account-type-option .license-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1.15rem;
+}
+#lightbox-with-ads-settings-page section .buttons-container {
+  display: flex;
+  gap: 12px;
+}
+
+/*# sourceMappingURL=admin-panel-settings-styles.css.map */
